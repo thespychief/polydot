@@ -1,0 +1,52 @@
+{
+  "name": "polydot",
+  "description": "A pure Javascript neural network library.",
+  "version": "1.0.0",
+  "author": "Chandler Freeman (https://github.com/thespychief)",
+  "license": "MIT",
+  "keywords": [
+    "polydot",
+    "pure javascript",
+    "neural network",
+    "machine learning",
+    "library"
+  ],
+  "main": "src/Network",
+  "dependencies": {
+    "cli-progress": "3.9.1",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es2021": true
+    },
+    "extends": [
+      "airbnb-base"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "rules": {
+      "max-len": [
+        "error",
+        80
+      ],
+      "no-plusplus": [
+        2,
+        {
+          "allowForLoopAfterthoughts": true
+        }
+      ]
+    }
+  }
+}
