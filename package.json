@@ -1,7 +1,7 @@
 {
   "name": "polydot",
   "description": "A pure Javascript neural network library.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Chandler Freeman (https://github.com/thespychief)",
   "license": "MIT",
   "keywords": [
