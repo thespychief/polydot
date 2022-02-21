@@ -1,6 +1,6 @@
 const Matrix = require('./Matrix');
 
-class Layer {
+class Segue {
   constructor(prevLayerSize, layerSize) {
     this.weights = Matrix.create(layerSize, prevLayerSize);
     this.bias = Matrix.create(layerSize, 1);
@@ -31,4 +31,4 @@ class Layer {
   }
 }
 
-module.exports = Layer;
+module.exports = Segue;

@@ -106,5 +106,5 @@ dist
 # VSCode
 .vscode
 
-# Examples
-examples
+# Playground
+playground

@@ -13,7 +13,6 @@
   ],
   "main": "src/Network",
   "dependencies": {
-    "cli-progress": "3.9.1",
     "lodash": "4.17.21"
   },
   "devDependencies": {
